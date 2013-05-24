@@ -152,7 +152,7 @@ img, object, embed, canvas, video, audio, picture {
 	.layout-menu {
 		display: block;
 		height: auto;
-		min-height: auto;
+		min-height: initial;
 		vertical-align: top;
 		width: 100%;
 	}
@@ -178,14 +178,14 @@ img, object, embed, canvas, video, audio, picture {
 	.layout-content {
 		display: block;
 		height: auto;
-		min-height: auto;
+		min-height: initial;
 		width: 100%;
 	}
 	
 	.layout-adv {
 		display: block;
 		height: auto;
-		min-height: auto;
+		min-height: initial;
 		vertical-align: top;
 		width: 100%;
 	}
