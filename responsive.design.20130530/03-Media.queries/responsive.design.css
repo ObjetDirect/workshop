@@ -151,7 +151,7 @@ img, object, embed, canvas, video, audio, picture {
 @media screen and (max-width: 960px) {
 	.layout-menu {
 		display: block;
-		height: auto;
+		height: initial;
 		min-height: initial;
 		vertical-align: top;
 		width: 100%;
@@ -177,14 +177,14 @@ img, object, embed, canvas, video, audio, picture {
 @media screen and (max-width: 640px) {	
 	.layout-content {
 		display: block;
-		height: auto;
+		height: initial;
 		min-height: initial;
 		width: 100%;
 	}
 	
 	.layout-adv {
 		display: block;
-		height: auto;
+		height: initial;
 		min-height: initial;
 		vertical-align: top;
 		width: 100%;
