@@ -151,8 +151,8 @@ img, object, embed, canvas, video, audio, picture {
 @media screen and (max-width: 960px) {
 	.layout-menu {
 		display: block;
-		height: initial;
-		min-height: initial;
+		height: auto;
+		min-height: auto;
 		vertical-align: top;
 		width: 100%;
 	}
@@ -177,15 +177,15 @@ img, object, embed, canvas, video, audio, picture {
 @media screen and (max-width: 640px) {	
 	.layout-content {
 		display: block;
-		height: initial;
-		min-height: initial;
+		height: auto;
+		min-height: auto;
 		width: 100%;
 	}
 	
 	.layout-adv {
 		display: block;
-		height: initial;
-		min-height: initial;
+		height: auto;
+		min-height: auto;
 		vertical-align: top;
 		width: 100%;
 	}
@@ -263,5 +263,28 @@ img, object, embed, canvas, video, audio, picture {
 	.layout-content {
 		*float: none;
 		*width: 100%;
+	}
+}
+
+/**
+ * 	Hack Webkit ???
+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+     @media screen and (max-width: 960px) {
+     	.layout-menu {
+			height: initial;
+			min-height: initial;
+		}
+     }
+     
+     @media screen and (max-width: 640px) {	
+		.layout-content {
+			height: initial;
+			min-height: initial;
+		
+		.layout-adv {
+			height: initial;
+			min-height: initial;
+		}
 	}
 }
